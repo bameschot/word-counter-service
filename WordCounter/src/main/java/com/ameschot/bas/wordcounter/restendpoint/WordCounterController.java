@@ -20,9 +20,8 @@ import javax.ws.rs.core.Response;
 import java.util.ArrayList;
 import java.util.List;
 
-
+@Path("/word-counter")
 @RequestScoped
-@Path("word-counter")
 public class WordCounterController {
 
     /*Attributes*/
