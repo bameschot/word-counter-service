@@ -12,5 +12,5 @@ The unittests can be started by either running the server in dev mode by using t
 
 # OpenAPI
 
-The service exposes an OpenAPI page for the purpose of documenting and testing the three operations on http://<<host>>:9080/openapi/ui/
+The service exposes an OpenAPI page for the purpose of documenting and testing the three operations on http://localhost:9080/openapi/ui/
 
