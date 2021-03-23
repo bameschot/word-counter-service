@@ -5,6 +5,7 @@ Test service for Jakarta EE / Open Liberty
 
 The server can be started by using the mvn liberty:run command in the root (pom) directory of the project. This starts the server on localhost:9080. The services can be reached on: http://localhost:9080/word-counter/api/word-counter. 
 
+For a standalone server the command mvn liberty:package -Dinclude=runnable can be used to create a jar with Open Liberty packaged in. This jar can be run directly via the java -jar word-counter.jar command. 
 
 # Running the unittests
 
